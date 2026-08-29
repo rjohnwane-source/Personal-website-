@@ -14,9 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #14213d;
-
     padding: 15px 40px;
 }
 
@@ -33,7 +31,6 @@ nav h2 {
 .links a {
     color: white;
     text-decoration: none;
-
     padding: 8px 15px;
 }
 
@@ -47,37 +44,27 @@ nav h2 {
 
 .home {
     text-align: center;
-
     padding: 80px 20px;
-
     background-color: #dcecff;
 }
 
 .home h1 {
     color: #14213d;
-
     font-size: 38px;
-
     margin-bottom: 15px;
 }
 
 .home p {
     font-size: 18px;
-
     margin-bottom: 30px;
 }
 
 .button {
     display: inline-block;
-
     background-color: #315c9c;
-
     color: white;
-
     text-decoration: none;
-
     padding: 12px 25px;
-
     border-radius: 6px;
 }
 
@@ -86,9 +73,7 @@ nav h2 {
 
 .about {
     text-align: center;
-
     padding: 50px 20px;
-
     background-color: white;
 }
 
@@ -98,9 +83,7 @@ nav h2 {
 
 .about p {
     max-width: 600px;
-
     margin: auto;
-
     line-height: 1.6;
 }
 
@@ -109,13 +92,11 @@ nav h2 {
 
 .favorites {
     text-align: center;
-
     padding: 50px 20px;
 }
 
 .favorites h2 {
     color: #14213d;
-
     font-size: 30px;
 }
 
@@ -124,13 +105,9 @@ nav h2 {
 
 .cards {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 25px;
-
     max-width: 900px;
-
     margin: 30px auto;
 }
 
@@ -139,15 +116,10 @@ nav h2 {
 
 .card {
     background-color: white;
-
     border: 2px solid #9bbce5;
-
     border-radius: 10px;
-
     padding: 25px;
-
-    min-height: 220px;
-
+    min-height: 300px;
     box-sizing: border-box;
 }
 
@@ -155,33 +127,16 @@ nav h2 {
     border-color: #315c9c;
 }
 
+
 /* Images */
 
 .card img {
-    width: 100px;
-    height: 130px;
-    object-fit: cover;
+    width: 120px;
+    height: 150px;
+    object-fit: contain;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-
-/* Icons */
-
-.icon {
-    font-size: 45px;
-
-    margin-bottom: 10px;
-}
-
-
-/* Movie Picture */
-
-.movie img {
-    width: 100px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 5px;
+    display: block;
+    margin: 0 auto 15px;
 }
 
 
@@ -189,9 +144,7 @@ nav h2 {
 
 .card h3 {
     color: #315c9c;
-
     font-size: 23px;
-
     margin: 10px 0;
 }
 
@@ -204,15 +157,10 @@ nav h2 {
 
 footer {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     background-color: #14213d;
-
     color: white;
-
     padding: 15px 40px;
 }
 
@@ -222,18 +170,14 @@ footer p {
 
 footer a {
     color: white;
-
     text-decoration: none;
-
     background-color: #315c9c;
-
     padding: 8px 12px;
-
     border-radius: 5px;
 }
 
 
-/* For Small Screens */
+/* Small Screens */
 
 @media (max-width: 700px) {
 
@@ -260,4 +204,5 @@ footer a {
     footer {
         padding: 15px 20px;
     }
-}
+
+            }
