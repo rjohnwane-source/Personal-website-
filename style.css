@@ -1,0 +1,253 @@
+/* Main */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eef5ff;
+    color: #222;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #14213d;
+
+    padding: 15px 40px;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+
+    padding: 8px 15px;
+}
+
+.links a:hover {
+    background-color: #315c9c;
+    border-radius: 5px;
+}
+
+
+/* Home */
+
+.home {
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: #dcecff;
+}
+
+.home h1 {
+    color: #14213d;
+
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+
+    background-color: #315c9c;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 6px;
+}
+
+
+/* About */
+
+.about {
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background-color: white;
+}
+
+.about h2 {
+    color: #315c9c;
+}
+
+.about p {
+    max-width: 600px;
+
+    margin: auto;
+
+    line-height: 1.6;
+}
+
+
+/* Favorites */
+
+.favorites {
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+.favorites h2 {
+    color: #14213d;
+
+    font-size: 30px;
+}
+
+
+/* Display: Grid */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    max-width: 900px;
+
+    margin: 30px auto;
+}
+
+
+/* Cards */
+
+.card {
+    background-color: white;
+
+    border: 2px solid #9bbce5;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    min-height: 220px;
+
+    box-sizing: border-box;
+}
+
+.card:hover {
+    border-color: #315c9c;
+}
+
+
+/* Icons */
+
+.icon {
+    font-size: 45px;
+
+    margin-bottom: 10px;
+}
+
+
+/* Movie Picture */
+
+.movie img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* Card Text */
+
+.card h3 {
+    color: #315c9c;
+
+    font-size: 23px;
+
+    margin: 10px 0;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #14213d;
+
+    color: white;
+
+    padding: 15px 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+
+    text-decoration: none;
+
+    background-color: #315c9c;
+
+    padding: 8px 12px;
+
+    border-radius: 5px;
+}
+
+
+/* For Small Screens */
+
+@media (max-width: 700px) {
+
+    nav {
+        padding: 15px 20px;
+    }
+
+    nav h2 {
+        font-size: 20px;
+    }
+
+    .links {
+        gap: 5px;
+    }
+
+    .links a {
+        padding: 7px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 15px 20px;
+    }
+}
