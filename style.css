@@ -155,6 +155,16 @@ nav h2 {
     border-color: #315c9c;
 }
 
+/* Images */
+
+.card img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 
 /* Icons */
 
